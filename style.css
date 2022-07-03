@@ -7,8 +7,8 @@
     margin-left: 8%;
     margin-right: 8%;
     background-color: #FAFAFA;
-
 }
+/*-----START OF NAV-----*/
 .logo img{
     height: 55px;
     float: left;
@@ -35,9 +35,12 @@ nav ul li a{
     padding: 8px;
     text-decoration: none;
     color: black;
+    font-weight: 550;
 }
-.nav-button button
-{
+nav ul li a:active{
+    color: #2549D3;
+}
+.nav-button button{
     background-color: #2549D3;
     color: white;
     padding: 8px 12px 8px 12px;
@@ -46,130 +49,8 @@ nav ul li a{
     left: 25%;
     margin-top: 9px;
 }
-.howitworks h2 {
-color: #2549D3;
-text-align: center;
-}
-.howitworks p {
-text-align: center;
-}
-.container4 {
-    width: 100%;
-}
-.locationicon {
-    text-align: center;
-    width: 29%;
-    float: left;
-    margin: 20px;
-}
-.locationicon img {
-    width: 20%;
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-.payments {
-text-align: center;
-width: 29%;
-float: left;
-padding-right: 10px;
-padding-left: 10px;
-box-shadow: 3px 3px whitesmoke;
-}
-.payments img {
-width: 60%;
-margin-top: 24px;
-margin-bottom: 24px;
-}
-.padlock {
-    text-align: center;
-    width: 29%;
-    float: left;
-    padding: 10px;
-}
-.padlock img {
-    width: 45%;
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-.checkbox1 {
-    float: right;;
-}
-.container2contents{
-    width: 50% ;
-}
-.container2image {
-    width: 50%;
-}
-.esteemed{
-    clear: left;
-    margin-top: 100px;
-}
-.esteemed h2 {
-    text-align: center;
-}
-.esteemed p {
-    text-align: center;
-}
-.container7 {
-    width: 100%;
-}
-.esteemedcustomers {
-    width: 30%;
-    float: right;
-    padding: 8px;
-    margin-right: 8px;
-}
-.esteemedcustomers p {
-font-size: small ;
-}
-.viewmoreesteemed {
-    clear: right;
-}
-.viewmore button {
-    background-color: #2549D3;
-    color: white;
-    padding: 10px;
-    border-radius: 16px;
-    float: right;
-}
-.viewmoreesteemed button {
-    background-color: #2549D3;
-    color: white;
-    padding: 10px;
-    border-radius: 16px;
-    float: right;
-}
-.container6 {
-    width: 100%;
-}
-.bangalow {
-    width: 30%;
-}
-
-.mainfootercontainer {
-    width: 100%;
-    margin-top: 100px;
-    margin-bottom: 40px;
-    background-color: #0F298B;
-    color: white;
-}
-.vallieestate {
-    width: 30%;
-    float: left;
-    margin-right: 20px;
-}
-.footerproperty {
-    width: 23%;
-    float: left;
-}
-.footerabout {
-    width: 23%;
-    float: left;
-}
-
-
-/*-----NEW CHANGES-----*/
-/*--Container 2--*/
+/*------END OF NAV-----*/
+/*------START OF CONTAINER 2-----*/
 .container2{
     width: 100%;
     margin-top: 48px;
@@ -182,6 +63,9 @@ font-size: small ;
 .container2contents h1 {
     color: #2549D3;
     font-size: 50px;
+}
+.container2contents{
+    width: 50% ;
 }
 .container2contents p{
     margin-top: 20px;
@@ -210,7 +94,8 @@ font-size: small ;
     margin-top: -250px;
     margin-left: 350px;
 }
-/*--Container 3--*/
+/*------END OF CONTAINER 2-----*/
+/*------START OF CONTAINER 3-----*/
 .container3{
     clear: both;
     width: 70%;
@@ -255,7 +140,57 @@ font-size: small ;
     font-size: 18px;
     margin-top: -5px;
 }
-/*--Container 5--*/
+/*------START OF CONTAINER 3-----*/
+
+.howitworks h2 {
+color: #2549D3;
+text-align: center;
+}
+.howitworks p {
+text-align: center;
+}
+
+/*------START OF CONTAINER 4-----*/
+.container4 {
+    width: 100%;
+}
+.locationicon {
+    text-align: center;
+    width: 29%;
+    float: left;
+    margin: 20px;
+}
+.locationicon img {
+    width: 20%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.payments {
+text-align: center;
+width: 29%;
+float: left;
+padding-right: 10px;
+padding-left: 10px;
+box-shadow: 3px 3px whitesmoke;
+}
+.payments img {
+width: 60%;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+.padlock {
+    text-align: center;
+    width: 29%;
+    float: left;
+    padding: 10px;
+}
+.padlock img {
+    width: 45%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+/*------END OF CONTAINER 4-----*/
+/*------START OF CONTAINER 5-----*/
 .container5{
     width: 100%;
     margin-top: 60px;
@@ -289,7 +224,7 @@ font-size: small ;
 .checkbox2 {
     margin-left: 280px;
 }
-
+/*------END OF CONTAINER 5-----*/
 .Featuredproperties h2{
     color: #2549D3;
     font-size: 36px;
@@ -300,11 +235,8 @@ font-size: small ;
     font-size: 20px;
     text-align: center;
 }
-
-
-
-/*--Container 6--*/
-.container6{
+/*------START OF CONTAINER 6-----*/
+.container6 {
     width: 100%;
 }
 .bungalow{
@@ -361,3 +293,68 @@ border-radius: 12px;
     float: right;
     margin-top: -50px;
 }
+/*------END OF CONTAINER 6-----*/
+.esteemed{
+    clear: left;
+    margin-top: 100px;
+}
+.esteemed h2 {
+    text-align: center;
+}
+.esteemed p {
+    text-align: center;
+}
+
+/*------START OF CONTAINER 7-----*/
+.container7 {
+    width: 100%;
+}
+.esteemedcustomers {
+    width: 30%;
+    float: right;
+    padding: 8px;
+    margin-right: 8px;
+}
+.esteemedcustomers p {
+font-size: small ;
+}
+.viewmoreesteemed {
+    clear: right;
+}
+.viewmore button {
+    background-color: #2549D3;
+    color: white;
+    padding: 10px;
+    border-radius: 16px;
+    float: right;
+}
+.viewmoreesteemed button {
+    background-color: #2549D3;
+    color: white;
+    padding: 10px;
+    border-radius: 16px;
+    float: right;
+}
+
+/*------START OF FOOTER-----*/
+.mainfootercontainer {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    background-color: #0F298B;
+    color: white;
+}
+.vallieestate {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+.footerproperty {
+    width: 23%;
+    float: left;
+}
+.footerabout {
+    width: 23%;
+    float: left;
+}
+/*------END OF FOOTER-----*/

@@ -8,9 +8,11 @@ description of program
 A real estate website
 
 program setup instructions
-Run the index.html file first!
+Open index.html in the root folder
+(Run the index.html file first!)
 
-link to the site on GitHub Pages
-
+link to the site on GitHub Pages:
+https://david-commit.github.io/gh-pages/
 
 copyright and license information
+No copyright and licences
