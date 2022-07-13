@@ -1,7 +1,6 @@
 # Vallie's Estate
 
 ##### By David Ondiege
-### Information about the project on Vallie's Estate
 
 ## Table of Content
 
