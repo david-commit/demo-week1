@@ -378,6 +378,8 @@ font-size: small ;
     width: 100%;
     background-color: #0F298B;
     margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .innerfooter {
     width: 80%;
