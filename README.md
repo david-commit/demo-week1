@@ -1,4 +1,4 @@
-# Portfolio
+# Vallie's Estate
 
 ##### By David Ondiege
 ### Information about the project on Vallie's Estate
@@ -19,8 +19,8 @@
 
 <p>Run by clicking the index.html file</p>
 
-## Link to the site on GitHub Pages:
-https://david-commit.github.io/gh-pages/
+## Deployment (Link to the site on GitHub Pages)
+This page is visible via this link: https://david-commit.github.io/gh-pages/
 
 ### Requirements
 
@@ -32,10 +32,10 @@ https://david-commit.github.io/gh-pages/
 <p>Start by running the index.html file on a we browser</p>
 
 [Go Back to the top](#portfolio)
-## Technology Used
+## Technologies Used
 * HTML5 - Is used to build the structure of the pages and position all elements.
 
-* CSS - Is used to style the pages and give a it an appealing visual appearance.
+* CSS3 - Is used to style the pages and give a it an appealing visual appearance.
 
 ## Reference
 * Moringa School Course Content
@@ -53,5 +53,11 @@ No licence
 Slack Name - @David Ondiege
 
 Email Address - [David Ondiege](david.ondiege@student.moringaschool.com)
+
+LinkedIn - [David Ondiege](https://www.linkedin.com/in/david-ondiege)
+
+## Copyright
+
+© 2022 David Ondiege
 
 [Go Back to the top](#portfolio)
