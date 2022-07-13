@@ -226,21 +226,23 @@ margin-bottom: 24px;
 .container5{
     width: 100%;
     margin-top: 60px;
+    
 
 }
 .container5image{
-    width: 80%;
+    width: 50%;
 }
 .container5image img{
-    width: 40%;
-    position: relative;
-    left: 15%;
+    width: 80%;
+    /* position: relative;
+    left: 15%; */
     margin: 100px 0px 100px 0px;
 }
 .chooseus{
     width: 50%;
     float: right;
-    margin-top: -350px;
+    margin-top: -375px;
+    align-items: center;
 }
 .chooseus h2{
     color: #2549D3;
