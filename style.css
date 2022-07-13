@@ -6,61 +6,79 @@
     padding: 0;
     font-family: 'Space Grotesk', sans-serif;
 }
+body{
+    background-color: #FAFAFA;
+}
 .container{
     margin-left: 8%;
     margin-right: 8%;
     background-color: #FAFAFA;
 }
 /*-----START OF NAV-----*/
-.logo p{
-    font-family: 'Oleo Script', cursive;
-    font-size: 30px;
-    height: 55px;
-    float: left;
+.menubar{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
 }
-nav{
-    width: 40%;
-    height: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
-    position: relative;
-    left: 20%
+.logo{
+    width: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-nav ul{
-    float: left;
-}
-nav ul li{
-    float: left;
-    list-style: none;
-    margin-top: 16px;
-}
-nav ul li a{
-    font-family: calibri;
-    padding: 8px;
+.logo p a{
+    font-weight: 500;
+    margin: 0;
+    font-size: 28px;
     text-decoration: none;
     color: black;
-    font-weight: 300;
+    font-family: 'Oleo Script', cursive;
 }
-nav ul li a:active{
-    color: #2549D3;
-}
-.nav-button button{
-    background-color: #2549D3;
-    color: white;
-    padding: 8px 12px 8px 12px;
-    border-radius: 10px;
+nav{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
     position: relative;
-    left: 25%;
-    margin-top: 9px;
-    border: none;
+    right: -5%;
 }
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    padding: 10px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+        
+}
+
+
+#start{
+    color: white;
+    background-color: #2549D3;
+    border: none;
+    padding: 15px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
 /*------END OF NAV-----*/
 /*------START OF CONTAINER 2-----*/
 .container2{
     width: 100%;
     margin-top: 48px;
     margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container2contents{
     width: 50%;
@@ -72,6 +90,9 @@ nav ul li a:active{
 }
 .container2contents{
     width: 50% ;
+}
+.creating-quality{
+    color: #464646;
 }
 .container2contents p{
     margin-top: 20px;
@@ -94,12 +115,14 @@ nav ul li a:active{
 
 .container2image{
     width: 50%;
+    display: flex;
     float: right;
 }
 .container2image img{
-    width: 145%;
-    margin-top: -250px;
-    margin-left: 350px;
+    width: 180%;
+    height: 350px;
+    margin-top: -350px;
+    margin-left: 295px;
 }
 /*------END OF CONTAINER 2-----*/
 /*------START OF CONTAINER 3-----*/
@@ -110,34 +133,32 @@ nav ul li a:active{
     margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
+    
     background-color: white;
     border-radius: 20px;
     box-shadow: 5px lightgray;
+    display: flex;
+    justify-content: space-between;
 }
 .location{
-    float: left;
     padding: 20px 40px 20px 20px;
-    position: relative;
-    left: 0%;
+    width: 25%;
 }
 .property{
-    float: left;
+    width: 25%;
     padding: 20px 40px 20px 20px;
-    position: relative;
-    left: 10%;
+    
    
 }
 .price{
-    float: left;
+    width: 25%;
     padding: 20px 40px 20px 20px;
-    position: relative;
-    left: 20%;
+    
 }
 .search{
     padding: 20px 40px 20px 20px;
-    position: relative;
-    left: 30%;
+    width: 25%;
+    
 }
 .search button{
     background-color: #2549D3;
@@ -146,6 +167,7 @@ nav ul li a:active{
     border-radius: 16px;
     font-size: 18px;
     margin-top: -5px;
+    border: none;
 }
 /*------START OF CONTAINER 3-----*/
 
@@ -155,6 +177,7 @@ text-align: center;
 }
 .howitworks p {
 text-align: center;
+margin-bottom: 20px;
 }
 
 /*------START OF CONTAINER 4-----*/
@@ -166,9 +189,10 @@ text-align: center;
     width: 29%;
     float: left;
     margin: 20px;
+    height: 300px;
 }
 .locationicon img {
-    width: 20%;
+    width: 25%;
     margin-top: 24px;
     margin-bottom: 24px;
 }
@@ -179,6 +203,7 @@ float: left;
 padding-right: 10px;
 padding-left: 10px;
 box-shadow: 3px 3px whitesmoke;
+height: 300px;
 }
 .payments img {
 width: 60%;
@@ -190,6 +215,7 @@ margin-bottom: 24px;
     width: 29%;
     float: left;
     padding: 10px;
+    height: 300px;
 }
 .padlock img {
     width: 45%;
@@ -303,7 +329,8 @@ border-radius: 12px;
 /*------END OF CONTAINER 6-----*/
 .esteemed{
     clear: left;
-    margin-top: 100px;
+    margin-top: 350px;
+    
 }
 .esteemed h2 {
     text-align: center;
@@ -315,6 +342,7 @@ border-radius: 12px;
 /*------START OF CONTAINER 7-----*/
 .container7 {
     width: 100%;
+    margin-top: 40px;
 }
 .esteemedcustomers {
     width: 30%;
@@ -346,12 +374,19 @@ font-size: small ;
 }
 
 /*------START OF FOOTER-----*/
-.mainfootercontainer {
+.mainfootercontainer{
     width: 100%;
+    background-color: #0F298B;
     margin-top: 100px;
-    margin-bottom: 40px;
+}
+.innerfooter {
+    width: 80%;
+    
     background-color: #0F298B;
     color: white;
+    padding: 28px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .vallieestate {
     width: 30%;
