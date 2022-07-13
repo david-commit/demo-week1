@@ -383,15 +383,20 @@ border-radius: 12px;
 .container7 {
     width: 100%;
     margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .esteemedcustomers {
-    width: 30%;
-    float: right;
+    width: 28%;
     padding: 8px;
     margin-right: 8px;
 }
+.esteemedcustomers h4 {
+    font-size: 16px ;
+    }
 .esteemedcustomers p {
-font-size: small ;
+font-size: 15px ;
 }
 .viewmoreesteemed {
     clear: right;
