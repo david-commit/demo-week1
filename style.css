@@ -76,18 +76,24 @@ nav ul li a {
     margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
+   
+}
+.container2cont{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
 }
 .container2contents{
     width: 50%;
     padding: 50px 50px 0px 10px;
+    
 }
 .container2contents h1 {
     color: #2549D3;
     font-size: 50px;
 }
-.container2contents{
-    width: 50% ;
-}
+
 .creating-quality{
     color: #464646;
 }
@@ -95,19 +101,25 @@ nav ul li a {
     margin-top: 20px;
     font-size: 20px;
 }
+.btns{
+    display: flex;
+    
+}
 .learnmore button {
     background-color: #2549D3;
     color: white;
-    padding: 10px;
+    padding: 12px 16px;
     border-radius: 16px;
     margin-top: 35px;
-    float: left;
+    
     border: none;
 }
-.playbutton img{
-    width: 35px;
-    margin-top: 39px;
-    margin-left: 10px;
+.playbutton{
+    color: #0f298b;
+    padding: 12px 16px;
+    margin-top: 18px;
+  font-size: 3vw;
+  float: right;
 }
 
 .container2image{
@@ -117,9 +129,9 @@ nav ul li a {
 }
 .container2image img{
     width: 180%;
-    height: 350px;
-    margin-top: -350px;
-    margin-left: 295px;
+    height: 370px;
+    margin-top: 40px;
+    margin-left: 0px;
 }
 /*------END OF CONTAINER 2-----*/
 
@@ -140,18 +152,28 @@ nav ul li a {
 }
 .location{
     padding: 20px 40px 20px 20px;
-    width: 25%;
+    width: 21%;
+}
+.location h4{
+    color: #0F298B;
+    font-size: 20px;
 }
 .property{
-    width: 25%;
+    width: 29%;
     padding: 20px 40px 20px 20px;
-    
-   
+}
+.property h4{
+    color: #0F298B;
+    font-size: 20px;
 }
 .price{
     width: 25%;
     padding: 20px 40px 20px 20px;
     
+}
+.price h4{
+    color: #0F298B;
+    font-size: 20px;
 }
 .search{
     padding: 20px 40px 20px 20px;
