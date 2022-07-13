@@ -40,7 +40,7 @@ nav ul li a{
     padding: 8px;
     text-decoration: none;
     color: black;
-    font-weight: 550;
+    font-weight: 300;
 }
 nav ul li a:active{
     color: #2549D3;
@@ -53,6 +53,7 @@ nav ul li a:active{
     position: relative;
     left: 25%;
     margin-top: 9px;
+    border: none;
 }
 /*------END OF NAV-----*/
 /*------START OF CONTAINER 2-----*/
@@ -83,6 +84,7 @@ nav ul li a:active{
     border-radius: 16px;
     margin-top: 35px;
     float: left;
+    border: none;
 }
 .playbutton img{
     width: 35px;
@@ -332,6 +334,7 @@ font-size: small ;
     padding: 10px;
     border-radius: 16px;
     float: right;
+    border: none;
 }
 .viewmoreesteemed button {
     background-color: #2549D3;
@@ -339,6 +342,7 @@ font-size: small ;
     padding: 10px;
     border-radius: 16px;
     float: right;
+    border: none;
 }
 
 /*------START OF FOOTER-----*/
