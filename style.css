@@ -143,12 +143,13 @@ nav ul li a {
     margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
-    
+    padding: 16px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 5px lightgray;
+    box-shadow: 5px 5px 5px lightgray;
     display: flex;
     justify-content: space-between;
+
 }
 .location{
     padding: 20px 40px 20px 20px;
@@ -183,7 +184,7 @@ nav ul li a {
 .search button{
     background-color: #2549D3;
     color: white;
-    padding: 10px 20px 10px 20px;
+    padding: 14px 28px 14px 28px;
     border-radius: 16px;
     font-size: 18px;
     margin-top: -5px;
@@ -192,8 +193,9 @@ nav ul li a {
 
 /*------START OF CONTAINER 3-----*/
 .howitworks h2 {
-color: #2549D3;
+color: #0f298b;
 text-align: center;
+font-size: 32px;
 }
 .howitworks p {
 text-align: center;
@@ -416,7 +418,7 @@ font-size: small ;
     
     background-color: #0F298B;
     color: white;
-    padding: 28px;
+    padding: 28px 36px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -425,15 +427,28 @@ font-size: small ;
     float: left;
     margin-right: 20px;
 }
+.vallieestate p{
+    padding-top: 12px;
+}
 .footerproperty {
     width: 23%;
     float: left;
+}
+.footerproperty p {
+    padding-top: 12px;
 }
 .footerabout {
     width: 23%;
     float: left;
 }
+.footerabout p{
+    padding-top: 12px;
+}
+.footerresources p{
+    padding-top: 12px;
+}
 .footerproperty h3, .footerabout h3, .footerresources h3, .vallieestate h3{
     padding-bottom: 18px;
+    font-size: 28px;
 }
 /*------END OF FOOTER-----*/
