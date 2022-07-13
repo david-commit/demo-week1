@@ -281,6 +281,7 @@ margin-bottom: 24px;
     margin: 15px;
     background-color: white;
     border: 12px;
+
 }
 .bungalow img{
     width: 100%;
@@ -307,14 +308,16 @@ border-radius: 12px;
 }
 .palace{
     padding: 8px;
+    height: 45px;
 }
 .palaceprice{
     padding: 8px;
     float: right;
     margin-top: -50px;
 }
-.ivoryrory{
+.ivyrory{
     padding: 8px;
+    height: 45px;
 }
 .ivyroryprice{
     padding: 8px;
@@ -323,6 +326,7 @@ border-radius: 12px;
 }
 .rexona{
     padding: 8px;
+    height: 45px;
 }
 .rexonaprice{
     padding: 8px;
