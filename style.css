@@ -312,8 +312,11 @@ margin-bottom: 24px;
     float: left;
     margin: 15px;
     background-color: white;
-    border: 12px;
+    border-radius: 12px;
 
+}
+.bungalow:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .bungalow img{
     width: 100%;
@@ -328,6 +331,9 @@ border-radius: 12px;
 .containerhouse1 img{
     width: 100%;
 }
+.containerhouse1:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
 .containerhouse2{
 width: 30%;
 float: left;
@@ -337,6 +343,9 @@ border-radius: 12px;
 }
 .containerhouse2 img{
     width: 100%;
+}
+.containerhouse2:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .palace{
     padding: 8px;
@@ -356,10 +365,14 @@ border-radius: 12px;
     float: right;
     margin-top: -50px;
 }
+/* .rexona:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+} */
 .rexona{
     padding: 8px;
-    height: 45px;
+    height: 45px; 
 }
+
 .rexonaprice{
     padding: 8px;
     float: right;
@@ -440,25 +453,28 @@ font-size: 15px ;
     float: left;
     margin-right: 20px;
 }
-.vallieestate p{
-    padding-top: 12px;
+.vallieestate p {
+    padding-top: 24px;
 }
 .footerproperty {
     width: 23%;
     float: left;
 }
-.footerproperty p {
+.footerproperty ul li {
     padding-top: 12px;
+    list-style: none;
 }
 .footerabout {
     width: 23%;
     float: left;
 }
-.footerabout p{
+.footerabout ul li {
     padding-top: 12px;
+    list-style: none;
 }
-.footerresources p{
+.footerresources ul li {
     padding-top: 12px;
+    list-style: none;
 }
 .footerproperty h3, .footerabout h3, .footerresources h3, .vallieestate h3{
     padding-bottom: 18px;
