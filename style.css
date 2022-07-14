@@ -6,26 +6,31 @@
     padding: 0;
     font-family: 'Space Grotesk', sans-serif;
 }
-body{
+
+body {
     background-color: #FAFAFA;
 }
-.container{
+
+.container {
     margin-left: 8%;
     margin-right: 8%;
     background-color: #FAFAFA;
 }
+
 /*-----START OF NAV-----*/
-.menubar{
-    display:flex;
+.menubar {
+    display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.logo{
+
+.logo {
     width: 20%;
     margin-top: auto;
     margin-bottom: auto;
 }
-.logo p a{
+
+.logo p a {
     font-weight: 500;
     margin: 0;
     font-size: 28px;
@@ -33,29 +38,34 @@ body{
     color: black;
     font-family: 'Oleo Script', cursive;
 }
-nav{
+
+nav {
     width: 50%;
     margin-top: auto;
     margin-bottom: auto;
     position: relative;
     right: -5%;
 }
-nav ul{
+
+nav ul {
     list-style: none;
 }
+
 nav ul li {
     float: left;
     padding: 10px;
-    
+
 }
+
 nav ul li a {
     text-decoration: none;
     font-weight: 500;
     font-size: 18px;
     color: black;
-        
+
 }
-#start{
+
+#start {
     color: white;
     background-color: #2549D3;
     border: none;
@@ -67,76 +77,86 @@ nav ul li a {
     cursor: pointer;
     border-radius: 10px;
 }
+
 /*------END OF NAV-----*/
 
 /*------START OF CONTAINER 2-----*/
-.container2{
+.container2 {
     width: 100%;
     margin-top: 48px;
     margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
-   
+
 }
-.container2cont{
+
+.container2cont {
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-between;
 }
-.container2contents{
+
+.container2contents {
     width: 50%;
     padding: 50px 50px 0px 10px;
-    
+
 }
+
 .container2contents h1 {
     color: #2549D3;
     font-size: 50px;
 }
 
-.creating-quality{
+.creating-quality {
     color: #464646;
 }
-.container2contents p{
+
+.container2contents p {
     margin-top: 20px;
     font-size: 20px;
 }
-.btns{
+
+.btns {
     display: flex;
-    
+
 }
+
 .learnmore button {
     background-color: #2549D3;
     color: white;
     padding: 12px 16px;
     border-radius: 16px;
     margin-top: 35px;
-    
+
     border: none;
 }
-.playbutton{
+
+.playbutton {
     color: #0f298b;
     padding: 12px 16px;
     margin-top: 18px;
-  font-size: 3vw;
-  float: right;
+    font-size: 3vw;
+    float: right;
 }
 
-.container2image{
+.container2image {
     width: 50%;
     display: flex;
     float: right;
 }
-.container2image img{
+
+.container2image img {
     width: 100%;
     height: 370px auto;
     margin-top: 40px;
     margin-left: 0px;
 }
+
 /*------END OF CONTAINER 2-----*/
 
 /*------START OF CONTAINER 3-----*/
-.container3{
+.container3 {
     clear: both;
     width: 70%;
     margin-top: 160px;
@@ -151,37 +171,45 @@ nav ul li a {
     justify-content: space-between;
 
 }
-.location{
+
+.location {
     padding: 20px 40px 20px 20px;
     width: 21%;
 }
-.location h4{
+
+.location h4 {
     color: #0F298B;
     font-size: 20px;
 }
-.property{
+
+.property {
     width: 29%;
     padding: 20px 40px 20px 20px;
 }
-.property h4{
+
+.property h4 {
     color: #0F298B;
     font-size: 20px;
 }
-.price{
+
+.price {
     width: 25%;
     padding: 20px 40px 20px 20px;
-    
+
 }
-.price h4{
+
+.price h4 {
     color: #0F298B;
     font-size: 20px;
 }
-.search{
+
+.search {
     padding: 20px 40px 20px 20px;
     width: 25%;
-    
+
 }
-.search button{
+
+.search button {
     background-color: #2549D3;
     color: white;
     padding: 14px 28px 14px 28px;
@@ -193,13 +221,14 @@ nav ul li a {
 
 /*------START OF CONTAINER 3-----*/
 .howitworks h2 {
-color: #0f298b;
-text-align: center;
-font-size: 32px;
+    color: #0f298b;
+    text-align: center;
+    font-size: 32px;
 }
+
 .howitworks p {
-text-align: center;
-margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /*------START OF CONTAINER 4-----*/
@@ -207,8 +236,9 @@ margin-bottom: 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
+
 }
+
 .locationicon {
     text-align: center;
     width: 26%;
@@ -217,27 +247,31 @@ margin-bottom: 20px;
     height: 300px auto;
     background-color: white;
 }
+
 .locationicon img {
     width: 25%;
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
 .payments {
-text-align: center;
-width: 26%;
+    text-align: center;
+    width: 26%;
 
-padding: 16px;
-box-shadow: 5px 5px 5px lightgray;
-height: 300px auto;
-background-color: white;
-height: 300px;
+    padding: 16px;
+    box-shadow: 5px 5px 5px lightgray;
+    height: 300px auto;
+    background-color: white;
+    height: 300px;
 }
+
 .payments img {
-width: 60%;
-margin-top: 24px;
-margin-bottom: 24px;
+    width: 60%;
+    margin-top: 24px;
+    margin-bottom: 24px;
 
 }
+
 .padlock {
     text-align: center;
     width: 26%;
@@ -246,43 +280,51 @@ margin-bottom: 24px;
     height: 300px auto;
     background-color: white;
 }
+
 .padlock img {
     width: 45%;
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
 /*------END OF CONTAINER 4-----*/
 
 /*------START OF CONTAINER 5-----*/
-.container5{
+.container5 {
     width: 100%;
     margin-top: 60px;
-    
+
 
 }
-.container5image{
+
+.container5image {
     width: 50%;
 }
-.container5image img{
+
+.container5image img {
     width: 80%;
     /* position: relative;
     left: 15%; */
     margin: 100px 0px 100px 0px;
 }
-.chooseus{
+
+.chooseus {
     width: 50%;
     float: right;
     margin-top: -375px;
     align-items: center;
 }
-.chooseus h2{
+
+.chooseus h2 {
     color: #2549D3;
     font-size: 30px;
 }
-.chooseus p{
+
+.chooseus p {
     padding: 20px 0px 20px 0px;
     font-size: 20px;
 }
+
 .checkbox1 {
     float: left;
 }
@@ -292,12 +334,13 @@ margin-bottom: 24px;
 }
 
 /*------END OF CONTAINER 5-----*/
-.Featuredproperties h2{
+.Featuredproperties h2 {
     color: #2549D3;
     font-size: 36px;
     text-align: center;
 }
-.Featuredproperties p{
+
+.Featuredproperties p {
     padding: 20px 0px 20px 0px;
     font-size: 20px;
     text-align: center;
@@ -307,7 +350,8 @@ margin-bottom: 24px;
 .container6 {
     width: 100%;
 }
-.bungalow{
+
+.bungalow {
     width: 30%;
     float: left;
     margin: 15px;
@@ -315,79 +359,94 @@ margin-bottom: 24px;
     border-radius: 12px;
 
 }
-.bungalow:hover{
+
+.bungalow:hover {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
-.bungalow img{
+
+.bungalow img {
     width: 100%;
 }
-.containerhouse1{
-width: 30%;
-float: left;
-margin: 15px;
-background-color: white;
-border-radius: 12px;
+
+.containerhouse1 {
+    width: 30%;
+    float: left;
+    margin: 15px;
+    background-color: white;
+    border-radius: 12px;
 }
-.containerhouse1 img{
+
+.containerhouse1 img {
     width: 100%;
 }
-.containerhouse1:hover{
+
+.containerhouse1:hover {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
-.containerhouse2{
-width: 30%;
-float: left;
-margin: 15px;
-background-color: white;
-border-radius: 12px;
+
+.containerhouse2 {
+    width: 30%;
+    float: left;
+    margin: 15px;
+    background-color: white;
+    border-radius: 12px;
 }
-.containerhouse2 img{
+
+.containerhouse2 img {
     width: 100%;
 }
-.containerhouse2:hover{
+
+.containerhouse2:hover {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
-.palace{
+
+.palace {
     padding: 8px;
     height: 45px;
 }
-.palaceprice{
+
+.palaceprice {
     padding: 8px;
     float: right;
     margin-top: -50px;
 }
-.ivyrory{
+
+.ivyrory {
     padding: 8px;
     height: 45px;
 }
-.ivyroryprice{
+
+.ivyroryprice {
     padding: 8px;
     float: right;
     margin-top: -50px;
 }
+
 /* .rexona:hover{
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 } */
-.rexona{
+.rexona {
     padding: 8px;
-    height: 45px; 
+    height: 45px;
 }
 
-.rexonaprice{
+.rexonaprice {
     padding: 8px;
     float: right;
     margin-top: -50px;
 }
 
 /*------END OF CONTAINER 6-----*/
-.esteemed{
+.esteemed {
     clear: left;
     margin-top: 350px;
-    
+
 }
+
 .esteemed h2 {
     text-align: center;
 }
+
 .esteemed p {
     text-align: center;
 }
@@ -398,22 +457,27 @@ border-radius: 12px;
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    
+
 }
+
 .esteemedcustomers {
     width: 28%;
     padding: 8px;
     margin-right: 8px;
 }
+
 .esteemedcustomers h4 {
-    font-size: 16px ;
-    }
-.esteemedcustomers p {
-font-size: 15px ;
+    font-size: 16px;
 }
+
+.esteemedcustomers p {
+    font-size: 15px;
+}
+
 .viewmoreesteemed {
     clear: right;
 }
+
 .viewmore button {
     background-color: #2549D3;
     color: white;
@@ -422,6 +486,7 @@ font-size: 15px ;
     float: right;
     border: none;
 }
+
 .viewmoreesteemed button {
     background-color: #2549D3;
     color: white;
@@ -432,52 +497,65 @@ font-size: 15px ;
 }
 
 /*------START OF FOOTER-----*/
-.mainfootercontainer{
+.mainfootercontainer {
     width: 100%;
     background-color: #0F298B;
     margin-top: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .innerfooter {
     width: 80%;
-    
+
     background-color: #0F298B;
     color: white;
     padding: 28px 36px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .vallieestate {
     width: 30%;
     float: left;
     margin-right: 20px;
 }
+
 .vallieestate p {
     padding-top: 24px;
 }
+
 .footerproperty {
     width: 23%;
     float: left;
 }
+
 .footerproperty ul li {
     padding-top: 12px;
     list-style: none;
 }
+
 .footerabout {
     width: 23%;
     float: left;
 }
+
 .footerabout ul li {
     padding-top: 12px;
     list-style: none;
 }
+
 .footerresources ul li {
     padding-top: 12px;
     list-style: none;
 }
-.footerproperty h3, .footerabout h3, .footerresources h3, .vallieestate h3{
+
+.footerproperty h3,
+.footerabout h3,
+.footerresources h3,
+.vallieestate h3 {
     padding-bottom: 18px;
     font-size: 28px;
 }
+
 /*------END OF FOOTER-----*/
